@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{3DA26CBA-6E40-4CF7-9D81-167298E13A0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoreLogging.AzureCosmosDb", "MoreLogging.AzureCosmosDb", "{CF36C0F9-5EC9-4773-8B5B-362697126961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreLogging.AzureCosmosDb", "libraries\MoreLogging.AzureCosmosDb\src\MoreLogging.AzureCosmosDb.csproj", "{E990DB07-C8D0-496B-8BA7-673215AE3A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E990DB07-C8D0-496B-8BA7-673215AE3A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E990DB07-C8D0-496B-8BA7-673215AE3A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E990DB07-C8D0-496B-8BA7-673215AE3A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E990DB07-C8D0-496B-8BA7-673215AE3A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF36C0F9-5EC9-4773-8B5B-362697126961} = {3DA26CBA-6E40-4CF7-9D81-167298E13A0D}
+		{E990DB07-C8D0-496B-8BA7-673215AE3A91} = {CF36C0F9-5EC9-4773-8B5B-362697126961}
+	EndGlobalSection
+EndGlobal
